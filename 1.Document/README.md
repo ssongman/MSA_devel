@@ -1,23 +1,20 @@
-# MSA_devel
-making configuration of development for MSA
-
 # << Docker 실습 >>
  
 
 
-## docker 설치
+▲ docker 설치
 
-### 패키지 인덱스 정보 업데이트
+ㅇ 패키지 인덱스 정보 업데이트
 $ sudo apt-get update
 
-### debian 계열에서 설치 및 삭제
+ㅇ debian 계열에서 설치 및 삭제
 $ sudo apt-get install docker.io
 $ sudo apt remove --purge docker docker-engine docker.io
 
-### 자동스크립트를 이용하는 방법    -  가장 쉽다.
+ㅇ자동스크립트를 이용하는 방법    -  가장 쉽다.
 $ curl -fsSL https://get.docker.com/ | sudo sh
 
-### docker 를 sudo 없이 사용가능하게 하려면
+ㅇdocker 를 sudo 없이 사용가능하게 하려면
 $ sudo usermod -aG docker ${USER}
 $ sudo service docker restart
 
@@ -29,14 +26,14 @@ Docker For Mac, Docker For Windows 를 설치하면 된다.
 개념을 이해하기 위해서라면 리눅스에 설치하는 것이 좋을 듯 하다.
 
 
-##  docker  version 
+▲  docker  version 
 ㅇ Docker version 확인
 $ docker version
 $ docker info
 
 
 
-##  Docker  첫 실행
+▲  Docker  첫 실행
 ㅇ Docker version 확인
 $ docker version
 
