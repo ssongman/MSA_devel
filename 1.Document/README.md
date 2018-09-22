@@ -7,36 +7,36 @@ making configuration of development for MSA
 
 ## docker 설치
 
-ㅇ 패키지 인덱스 정보 업데이트
+### 패키지 인덱스 정보 업데이트
 $ sudo apt-get update
 
-ㅇ debian 계열에서 설치 및 삭제
+### debian 계열에서 설치 및 삭제
 $ sudo apt-get install docker.io
 $ sudo apt remove --purge docker docker-engine docker.io
 
-ㅇ 자동스크립트를 이용하는 방법    -  가장 쉽다.
+### 자동스크립트를 이용하는 방법    -  가장 쉽다.
 $ curl -fsSL https://get.docker.com/ | sudo sh
 
-ㅇ docker 를 sudo 없이 사용가능하게 하려면
+### docker 를 sudo 없이 사용가능하게 하려면
 $ sudo usermod -aG docker ${USER}
 $ sudo service docker restart
 
 
 
-▲ Mac, Windows 에 Docker 설치하기
+## Mac, Windows 에 Docker 설치하기
 Docker For Mac, Docker For Windows 를 설치하면 된다.
 하지만 docker 는 리눅스 컨테이너이므로 windows > 가상머신 > 리눅스커널 > 도커 순서로 설치가 된다. 포트를 연결하기 위해서는 도커 컨테이너의 특정포트를 가상머신에 연결하고 다시 mac이나 windows 에 포트에 연결되는 구조이다. 
 개념을 이해하기 위해서라면 리눅스에 설치하는 것이 좋을 듯 하다.
 
 
-▲  docker  version 
+##  docker  version 
 ㅇ Docker version 확인
 $ docker version
 $ docker info
 
 
 
-▲  Docker  첫 실행
+##  Docker  첫 실행
 ㅇ Docker version 확인
 $ docker version
 
