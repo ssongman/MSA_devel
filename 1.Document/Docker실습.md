@@ -30,7 +30,7 @@ Docker For Mac, Docker For Windows 를 설치하면 된다.
 ㅇ Docker version 확인
 $ docker version
 $ docker info
-
+ 
 
 
 ▲  Docker  첫 실행
